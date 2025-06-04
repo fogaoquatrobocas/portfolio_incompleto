@@ -2,8 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
 }
+
+    header {
+        background-color: blueviolet;
+        width: 100%;
+        padding: 20px 40px;
+    }
+
+
+
+
+    
+    body {
+
+    }
+
+
+
+
 .menus{
     display: flex;
     justify-content: space-around;
+}
+.menu_externo ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
