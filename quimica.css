@@ -6,29 +6,37 @@
     
 }
 
+    body {
+        font-family: Arial, sans-serif;
+        background-color: whitesmoke;
+        font-size: 1rem;
+    }
+
+
+
     header {
         background-color: blueviolet;
         width: 100%;
         padding: 20px 40px;
     }
 
-
-
-
-    
-    body {
-
-    }
-
-
-
-
 .menus{
     display: flex;
     justify-content: space-around;
 }
-.menu_externo ul {
+
+.menu_externo ul,
+.menu_interno ul {
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+.menu_externo li a,
+.menu_interno li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
