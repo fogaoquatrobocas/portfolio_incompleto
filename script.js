@@ -1,3 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function mostraAlternativa() {
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas.textContent = alternativa.texto;
